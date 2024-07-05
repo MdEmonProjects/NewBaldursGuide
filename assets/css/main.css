@@ -1,5 +1,5 @@
 main {
-    background: url(../img/bg-body.png) repeat;
+    background: url(../images/bg-body.png) repeat;
     background-size: auto 15%;
     padding-bottom: 200px;
     position: relative;
@@ -10,7 +10,7 @@ main {
     margin: 0 auto;
     position: relative;
     margin-top: 44px;
-    background: url(../img/bg-pattern.png) top left repeat;
+    background: url(../images/bg-pattern.png) top left repeat;
     background-size: contain;
 }
 
@@ -24,7 +24,7 @@ main {
 }
 .columns:before {
     content: '';
-    background: url(../img/leftcolumn.png) top left repeat-y;
+    background: url(../images/leftcolumn.png) top left repeat-y;
     background-size: 100% auto;
     position: absolute;
     /* top: 12px; */
@@ -35,7 +35,7 @@ main {
 }
 .columns:after {
     content: '';
-    background: url(../img/rightcolumn.png) top left repeat-y;
+    background: url(../images/rightcolumn.png) top left repeat-y;
     background-size: 100% auto;
     position: absolute;
     top: 0px;
@@ -45,7 +45,7 @@ main {
     height: 100%;
 }
 main .title {
-    background: url(../img/bg-title.png) top center no-repeat;
+    background: url(../images/bg-title.png) top center no-repeat;
     background-size: 100% 100%;
     width: 487px;
     height: 67px;
