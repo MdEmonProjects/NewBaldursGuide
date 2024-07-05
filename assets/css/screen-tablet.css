@@ -1,0 +1,110 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Common CSS */
+    p {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .nav_links {
+        margin-top: -94px;
+    }
+
+    .nav_links ul li a {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 0px 9px;
+        width: 77px;
+        height: 53px;
+        padding-top: 24px;
+    }
+
+    .nav_links ul li:first-child a {
+        clip-path: polygon(0% 33%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .nav_links ul li:nth-child(3) a {
+        clip-path: polygon(0% 16%, 100% 16%, 100% 100%, 0% 100%);
+    }
+
+    .nav_links ul li:last-child a {
+        clip-path: polygon(0% 0%, 100% 33%, 100% 100%, 0% 100%);
+    }
+
+    .nav_links ul li:first-child {
+        position: relative;
+        left: -1px;
+    }
+
+    .nav_links ul li {
+        position: relative;
+        left: -3px;
+    }
+
+    .nav_links ul li:nth-child(3) {
+        position: relative;
+        left: -3px;
+    }
+
+    .nav_links ul li:nth-child(4) {
+        position: relative;
+        left: -5px;
+    }
+
+    .nav_links ul li:nth-child(5) {
+        position: relative;
+        left: -6px;
+    }
+
+    /* Header CSS */
+    .header .nav-item {
+        margin: 0px 5px;
+    }
+
+    .header .logo img {
+        margin-left: 50px;
+    }
+
+    /* Main Content Area CSS */
+    .main .title h2 {
+        line-height: 64px;
+        padding-top: 3px;
+        width: 100%;
+        left: 0%;
+        margin-top: -8px;
+        font-size: 28px;
+        font-weight: 400;
+
+    }
+
+    .main .main-space {
+        padding: 0px 50px;
+        padding-top: 22px;
+        margin-top: 0;
+    }
+
+    .main p {
+        font-size: 20px;
+    }
+
+    .main .title {
+        width: calc(88% - 24px);
+    }
+
+    .columns:before,
+    .columns:after {
+        width: 30px;
+    }
+
+    .main .container {
+        padding-left: 96px;
+        padding-right: 96px;
+    }
+
+    article {
+        padding: 0px 8px;
+    }
+}
+

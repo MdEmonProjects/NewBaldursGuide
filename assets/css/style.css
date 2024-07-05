@@ -1,0 +1,53 @@
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    color: #CCC2AD;
+    font-family: "Amarante", serif;
+    background: none;
+    padding-bottom: 0px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.container{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+@media (min-width:576px) {
+
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+
+    .container {
+        max-width: 1140px
+    }
+}

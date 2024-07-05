@@ -1,0 +1,19 @@
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+    padding: 20px 0px 40px 0px;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+.header .logo img {
+    max-height: 250px;
+    margin-left: 97px;
+}
+
+

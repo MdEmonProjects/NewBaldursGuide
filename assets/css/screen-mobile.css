@@ -1,0 +1,213 @@
+@media only screen and (max-width: 767px) {
+
+    /* Common CSS */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .container, .container-sm {
+        max-width: 540px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .xs-100 {
+        width: 100%;
+    }
+
+    .xs-0 {
+        padding: 0;
+    }
+
+    /* Header CSS */
+    .header {
+        margin-top: 0;
+        padding-bottom: 125px;
+    }
+
+    .header .logo img {
+        max-height: 200px;
+        margin-left: 0;
+    }
+
+    /* ============= Navigation Area CSS ===================== */
+    nav{
+        position: relative;
+    }
+    .nav_links.desktop_navigation{
+        display: none;
+    }
+    .topbar {
+        min-height: 45px;
+    }
+
+    .topbar .container,
+    .main .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar-toggler {
+        line-height: 1;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .navbar-toggler.menu-icon {
+        cursor: pointer;
+        width: auto;
+        color: #f1eedb;
+        background: #674543;
+        font-size: 17px;
+        padding: 10px 16px;
+        border: 1px solid #000;
+        display: inline-block;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Calistoga, serif;
+        min-width: 150px;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        position: absolute;
+    }
+
+    .navbar-toggler.menu-icon em {
+        font-style: normal;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: #ffb580;
+    }
+
+    .desktop_navigation {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+
+    .imghead:before {
+        height: 20px;
+    }
+
+    .imghead img {
+        min-height: 83px;
+        /* height: 85px; */
+    }
+    .navbar-toggler{
+        display: block;
+    }
+
+    /*================ Main Content Area CSS =================== */
+    .main .main-space {
+        padding: 10px 41px 0;
+        margin-top: -18px;
+    }
+
+    .main .title {
+        height: 50px;
+        width: calc(80% - 24px);
+        margin-top: -6px;
+        text-align: center;
+    }
+
+    .main .title h2 {
+        font-size: 19px;
+        line-height: 50px;
+        font-weight: 400;
+
+    }
+
+    .main .al-candel,
+    .main .al-lcandel,
+    .main .al-rcandel {
+        position: absolute;
+        width: 26px;
+        z-index: 2;
+    }
+
+    .main .al-candel {
+        top: 31px;
+        right: 12px;
+    }
+
+    .main .al-lcandel,
+    .main .al-rcandel {
+        top: 36px;
+    }
+
+    .main .al-lcandel {
+        left: 9px;
+    }
+
+    .main .al-rcandel {
+        right: 9px;
+    }
+
+    .main p,
+    ul.list li {
+        font-size: 16px;
+    }
+
+    article {
+        padding: 0 9px;
+    }
+
+    .columns:after,
+    .columns:before {
+        width: 20px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .main .latest_article_message_section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .latest_article_message_section p {
+        width: 260px;
+    }
+
+    .latest_article_message_section a {
+        max-width: 95%;
+    }
+
+    #welcomeMessage {
+        margin-top: 19px;
+    }
+    .latest_article_message_section a img{
+        width: 100%;
+    }
+
+  
+}
+
+
+@media only screen and (min-width: 540px){
+    .latest_article_message_section p {
+        width: auto;
+        text-align: left;
+    }
+}
