@@ -1,7 +1,7 @@
 
-                   <img class="angle-left" src="./assets/img/leftangle.png" alt="" />
+                   <img class="angle-left" src="./assets/img/left-angle.png" alt="" />
                    <img class="flame" src="./assets/img/flames-animated.gif" alt="" />
-                   <img class="angle-right" src="./assets/img/right-candel.png" alt="" />
+                   <img class="angle-right" src="./assets/img/right-angle.png" alt="" />
                    <img class="candle-right" src="./assets/img/right-candle-only.png" alt="" />
                    <img class="candle-left" src="./assets/img/left-candle-only.png" alt="" />
                    <img class="flame-right" src="./assets/img/flames-animated.gif" alt="" />
