@@ -46,6 +46,10 @@
         margin-left: 0;
     }
 
+    .logo {
+        text-align: center;
+    }
+
     /* ============= Navigation Area CSS ===================== */
     nav {
         position: relative;
@@ -220,6 +224,13 @@
         right: 9px;
     }
 
+    .columns:after,
+    .columns:before {
+        width: 20px;
+    }
+
+    /* ================== Article start =================== */
+
     main p,
     ul.list li {
         font-size: 16px;
@@ -229,13 +240,19 @@
         padding: 0 9px;
     }
 
-    .columns:after,
-    .columns:before {
-        width: 20px;
+    article h2 {
+        font-size: 23px;
     }
 
-    .logo {
-        text-align: center;
+    aside {
+        float: none;
+        width: auto;
+        margin: 16px 0;
+        padding: 60px 20px 20px;
+    }
+
+    aside::before {
+        font-size: 24px;
     }
 
     main .latest-article-message-section {

@@ -172,10 +172,26 @@
         padding: 0px 8px;
     }
 
+    aside {
+        float: none;
+        width: auto;
+        margin: 16px 0;
+        padding: 70px 20px 20px;
+    }
+
+    aside::before {
+        font-size: 26px;
+    }
+
+    ul.list li {
+        font-size: 20px;
+    }
+
     /* ====== Footer start === */
     footer {
         padding-bottom: 80px;
     }
+
     footer .container {
         padding-left: 96px;
         padding-right: 96px;
@@ -185,10 +201,8 @@
         padding-bottom: 68px;
         margin-top: -6px;
     }
-    img.footer-grass-left
 
-    /* Adjust this for left foliage of Footer */
-        {
+    img.footer-grass-left {
         top: -37px;
         left: -14px;
         width: 52px;
