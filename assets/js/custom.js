@@ -15,10 +15,10 @@ function toggleStyle(el, prop, style1, style2) {
 
 document.querySelector(".navbar-toggler").addEventListener("click", function (event) {
     document.querySelector(".navbar-toggler").classList.toggle('active');
-    document.querySelector(".nav_links.mobile_navigation").classList.toggle('active');
+    document.querySelector(".nav-links.mobile-navigation").classList.toggle('active');
 
 
-    let menuList = document.querySelectorAll(".mobile_navigation ul li")
+    let menuList = document.querySelectorAll(".mobile-navigation ul li")
 
     mobile_menu_open_status = !mobile_menu_open_status
     menuList.forEach((element, index) => {
@@ -33,6 +33,10 @@ document.querySelector(".navbar-toggler").addEventListener("click", function (ev
         toggleStyle(element, 'pointerEvents', "all", "none");
     });
 })
+
+var currentYear = new Date().getFullYear();
+// Update the span with id="currentYear" with the current year
+document.getElementById("currentYear").innerHTML = currentYear;
 
 
 

@@ -1,6 +1,6 @@
 /*** Footer ***/
 
-.footer {
+footer {
     position: absolute;
     width: 100%;
     left: 0;
@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.footer p {
+footer p {
     font-size: 24px;
     color: #000000;
     font-family: "IM Fell Great Primer", serif;
@@ -68,7 +68,7 @@ img.footer-grass-right
     z-index: 9;
 }
 
-.footer ul {
+footer ul {
     text-align: center;
     width: 100%;
     padding: 0;
@@ -77,7 +77,7 @@ img.footer-grass-right
     padding-left: 0px;
 }
 
-.footer li {
+footer li {
     display: inline-block;
 }
 
@@ -86,7 +86,7 @@ img.footer-grass-right
     z-index: 3;
 }
 
-.footer p {
+footer p {
     display: inline-block;
     font-family: "Calistoga", serif;
     font-size: 16px;
@@ -95,19 +95,19 @@ img.footer-grass-right
 }
 
 
-.footer p a {
+footer p a {
     color: #000000;
 }
 
-.footer p a:hover {
+footer p a:hover {
     color: #fdf1dd;
 }
 
-.footer li:last-child a {
+footer li:last-child a {
     border: none;
 }
 
-.footer li a {
+footer li a {
     display: inline-block;
     color: #000000;
     font-size: 19px;
@@ -120,7 +120,7 @@ img.footer-grass-right
     line-height: 1.05;
 }
 
-.footer ul li a:hover,
-.footer ul li a.active {
+footer ul li a:hover,
+footer ul li a.active {
     color: #fdf1dd;
 }

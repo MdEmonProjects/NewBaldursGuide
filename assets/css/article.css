@@ -26,20 +26,20 @@ img.article-image {
 .divider img{
     width: 100%;
 }
-.latest_article_message_section {
+.latest-article-message-section {
     display: flex;
     justify-content: space-between;
 
 }
-.latest_article_message_section a{
+.latest-article-message-section a{
     flex: 0 0 50%;
     max-width: 50%;
     display: block;
 }
-.latest_article_message_section p {
+.latest-article-message-section p {
     width: 277px;
 }
-.latest_article_message_section a img{
+.latest-article-message-section a img{
     width:  289px;
     max-width: 100%;
 }

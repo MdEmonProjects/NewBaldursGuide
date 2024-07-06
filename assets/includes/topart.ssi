@@ -5,7 +5,7 @@
                    <img class="candle-right" src="./assets/img/right-candle-only.png" alt="" />
                    <img class="candle-left" src="./assets/img/left-candle-only.png" alt="" />
                    <img class="flame-right" src="./assets/img/flames-animated.gif" alt="" />
-                   <img class="grass-left" src="./assets/img/grass-1.png" alt="" />
-                   <img class="grass-right" src="./assets/img/grass-2.png" alt="" />
+                   <img class="grass-left" src="./assets/img/left-main-leaves.png" alt="" />
+                   <img class="grass-right" src="./assets/img/right-main-leaves.png" alt="" />
 
 	

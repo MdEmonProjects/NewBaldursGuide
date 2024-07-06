@@ -36,12 +36,12 @@
     }
 
     /* Header CSS */
-    .header {
+    header {
         margin-top: 0;
         padding-bottom: 125px;
     }
 
-    .header .logo img {
+    header .logo img {
         max-height: 200px;
         margin-left: 0;
     }
@@ -51,7 +51,7 @@
         position: relative;
     }
 
-    .nav_links.desktop_navigation {
+    .nav-links.desktop-navigation {
         display: none;
     }
 
@@ -60,7 +60,7 @@
     }
 
     .topbar .container,
-    .main .container {
+    main .container {
         padding-left: 0;
         padding-right: 0;
     }
@@ -103,17 +103,17 @@
         color: #ffb580;
     }
 
-    .desktop_navigation {
+    .desktop-navigation {
         opacity: 0;
         visibility: hidden;
         display: none;
     }
 
-    .imghead:before {
+    .image-header:before {
         height: 20px;
     }
 
-    .imghead img {
+    .image-header img {
         min-height: 83px;
         /* height: 85px; */
     }
@@ -123,27 +123,27 @@
     }
 
     /*================ Main Content Area CSS =================== */
-    .main .main-space {
+    main .main-space {
         padding: 10px 41px 110px;
         margin-top: -18px;
         /* overflow-x: hidden; */
     }
 
-    .main .title {
+    main .title {
         height: 50px;
         width: calc(80% - 24px);
         margin-top: -6px;
         text-align: center;
     }
 
-    .main .title h2 {
+    main .title h2 {
         font-size: 19px;
         line-height: 50px;
         font-weight: 400;
 
     }
 
-    .main .angle-left {
+    main .angle-left {
         position: absolute;
         top: -15px;
         left: 5px;
@@ -151,20 +151,20 @@
         z-index: 0;
     }
 
-    .main .angle-right {
+    main .angle-right {
         top: -15px;
         right: 0px;
         width: 97px;
     }
 
-    .main .grass-left {
+    main .grass-left {
         top: -4px;
         left: -12px;
         width: 45px;
         z-index: 3;
     }
 
-    .main .grass-right {
+    main .grass-right {
         position: absolute;
         top: 15px;
         right: 0px;
@@ -172,7 +172,7 @@
         z-index: 1;
     }
 
-    .main .flame
+    main .flame
 
     /* Adjust this for left candle light Img */
         {
@@ -183,7 +183,7 @@
         left: 11px;
     }
 
-    .main .flame-right
+    main .flame-right
 
     /* Adjust this for right candle light Img */
         {
@@ -194,33 +194,33 @@
         right: 8px;
     }
 
-    .main .al-candel,
-    .main .candle-left,
-    .main .candle-right {
+    main .al-candel,
+    main .candle-left,
+    main .candle-right {
         position: absolute;
         width: 26px;
         z-index: 2;
     }
 
-    .main .al-candel {
+    main .al-candel {
         top: 31px;
         right: 12px;
     }
 
-    .main .candle-left,
-    .main .candle-right {
+    main .candle-left,
+    main .candle-right {
         top: 36px;
     }
 
-    .main .candle-left {
+    main .candle-left {
         left: 9px;
     }
 
-    .main .candle-right {
+    main .candle-right {
         right: 9px;
     }
 
-    .main p,
+    main p,
     ul.list li {
         font-size: 16px;
     }
@@ -238,16 +238,16 @@
         text-align: center;
     }
 
-    .main .latest_article_message_section {
+    main .latest-article-message-section {
         flex-direction: column;
         text-align: center;
     }
 
-    .latest_article_message_section p {
+    .latest-article-message-section p {
         width: 260px;
     }
 
-    .latest_article_message_section a {
+    .latest-article-message-section a {
         max-width: 95%;
     }
 
@@ -255,7 +255,7 @@
         margin-top: 25px;
     }
 
-    .latest_article_message_section a img {
+    .latest-article-message-section a img {
         width: 100%;
     }
 
@@ -263,14 +263,14 @@
     /* ========== Footer Start  */
 
 
-    .footer {
+    footer {
         padding-top: 13px;
         padding-bottom: 0px;
         transform: translateY(-100%);
         overflow-x: hidden;
     }
 
-    .footer .container {
+    footer .container {
         padding-left: 0;
         padding-right: 0;
     }
@@ -280,7 +280,7 @@
         padding-bottom: 46px;
     }
 
-    /* .footer .zindex {
+    /* footer .zindex {
         position: absolute;
         top: 34%;
         left: 0;
@@ -288,14 +288,14 @@
         transform: translate(0px, -50%);
     } */
 
-    .footer li a {
+    footer li a {
         display: inline-block;
         color: #000;
         padding: 0px 5px 0px 0px;
         font-size: 12px;
     }
 
-    .footer p
+    footer p
 
     /* Adjust this for Footer Paragraph text */
         {
@@ -303,7 +303,7 @@
         margin-top: 3px;
     }
 
-    .footer li a {
+    footer li a {
         font-size: 11px;
     }
 
@@ -338,7 +338,7 @@
 
 
 @media only screen and (min-width: 540px) {
-    .latest_article_message_section p {
+    .latest-article-message-section p {
         width: auto;
         text-align: left;
     }

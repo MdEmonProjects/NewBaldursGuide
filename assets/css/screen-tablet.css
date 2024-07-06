@@ -9,11 +9,11 @@
         font-size: 30px;
     }
 
-    .nav_links {
+    .nav-links {
         margin-top: -94px;
     }
 
-    .nav_links ul li a {
+    .nav-links ul li a {
         font-size: 12px;
         text-transform: uppercase;
         padding: 0px 9px;
@@ -22,54 +22,54 @@
         padding-top: 24px;
     }
 
-    .nav_links ul li:first-child a {
+    .nav-links ul li:first-child a {
         clip-path: polygon(0% 33%, 100% 0%, 100% 100%, 0% 100%);
     }
 
-    .nav_links ul li:nth-child(3) a {
+    .nav-links ul li:nth-child(3) a {
         clip-path: polygon(0% 16%, 100% 16%, 100% 100%, 0% 100%);
     }
 
-    .nav_links ul li:last-child a {
+    .nav-links ul li:last-child a {
         clip-path: polygon(0% 0%, 100% 33%, 100% 100%, 0% 100%);
     }
 
-    .nav_links ul li:first-child {
+    .nav-links ul li:first-child {
         position: relative;
         left: -1px;
     }
 
-    .nav_links ul li {
+    .nav-links ul li {
         position: relative;
         left: -3px;
     }
 
-    .nav_links ul li:nth-child(3) {
+    .nav-links ul li:nth-child(3) {
         position: relative;
         left: -3px;
     }
 
-    .nav_links ul li:nth-child(4) {
+    .nav-links ul li:nth-child(4) {
         position: relative;
         left: -5px;
     }
 
-    .nav_links ul li:nth-child(5) {
+    .nav-links ul li:nth-child(5) {
         position: relative;
         left: -6px;
     }
 
     /* Header CSS */
-    .header .nav-item {
+    header .nav-item {
         margin: 0px 5px;
     }
 
-    .header .logo img {
+    header .logo img {
         margin-left: 50px;
     }
 
     /* Main Content Area CSS */
-    .main .title h2 {
+    main .title h2 {
         line-height: 64px;
         padding-top: 3px;
         width: 100%;
@@ -80,18 +80,18 @@
 
     }
 
-    .main .main-space {
+    main .main-space {
         padding: 0px 50px;
         padding-top: 22px;
         padding-bottom: 180px;
         margin-top: 0;
     }
 
-    .main p {
+    main p {
         font-size: 20px;
     }
 
-    .main .angle-left {
+    main .angle-left {
         top: 8px;
         /* Adjust this for top position of left inner window */
         left: 4px;
@@ -100,13 +100,13 @@
         /* Adjust this for width of left window */
     }
 
-    .main .angle-right {
+    main .angle-right {
         top: 8px;
         right: -6px;
         width: 180px;
     }
 
-    .main .candle-left {
+    main .candle-left {
         top: 105px;
         /* Adjust this for top position of left candle */
         left: 14px;
@@ -115,7 +115,7 @@
         /* Adjust this for width of left candle */
     }
 
-    .main .candle-right {
+    main .candle-right {
         top: 105px;
         /* Adjust this for top position of right candle */
         right: 14px;
@@ -124,36 +124,36 @@
         /* Adjust this for width of right candle */
     }
 
-    .main .flame {
+    main .flame {
         width: 18px;
         top: 87px;
         left: 16px;
     }
 
-    .main .flame-right {
+    main .flame-right {
         width: 18px;
         top: 87.5px;
         right: 12.5px;
     }
 
-    .main .grass-left {
+    main .grass-left {
         z-index: 3;
         top: 20px;
     }
 
-    /* .main .flame {
+    /* main .flame {
         width: 18px;
         top: 48px;
         left: 16px;
     }
 
-    .main .flame-right {
+    main .flame-right {
         width: 18px;
         top: 48.5px;
         right: 12.5px;
     } */
 
-    .main .title {
+    main .title {
         width: calc(88% - 24px);
         margin-top: 6px;
     }
@@ -163,7 +163,7 @@
         width: 30px;
     }
 
-    .main .container {
+    main .container {
         padding-left: 96px;
         padding-right: 96px;
     }
@@ -173,10 +173,10 @@
     }
 
     /* ====== Footer start === */
-    .footer {
+    footer {
         padding-bottom: 80px;
     }
-    .footer .container {
+    footer .container {
         padding-left: 96px;
         padding-right: 96px;
     }
