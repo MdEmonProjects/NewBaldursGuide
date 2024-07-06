@@ -166,7 +166,7 @@
 .nav_links.mobile_navigation {
     background: none;
     position: absolute;
-    top: 40px;
+    top: 52px;
     left: 50%;
     transform: translate(-50%, 50%);
 }
@@ -175,7 +175,10 @@
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
 }
-
+.nav_links.mobile_navigation ul li:last-child a {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
 .nav_links.mobile_navigation ul {
     padding: 0;
     width: auto;
@@ -204,6 +207,8 @@
     display: inline-block;
     border-radius: 0px;
     clip-path: none !important;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
 }
 
 .nav_links.mobile_navigation ul li a:hover,

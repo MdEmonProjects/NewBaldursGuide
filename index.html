@@ -19,12 +19,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/general.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/article.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
     <link rel="stylesheet" href="./assets/css/screen-large.css">
+    <link rel="stylesheet" href="./assets/css/screen-small.css">
     <link rel="stylesheet" href="./assets/css/screen-tablet.css">
     <link rel="stylesheet" href="./assets/css/screen-mobile.css">
 
@@ -117,6 +120,17 @@
 
             <div class="main-space">
                 <div class="columns"></div>
+
+                
+                <img class="angle-left" src="/assets/images/leftangle.png" alt="" />
+                <img class="flame" src="/assets/images/flames-animated.gif" alt="" />
+                <img class="angle-right" src="/assets/images/right-candel.png" alt="" />
+                <img class="candle-right" src="/assets/images/right-candle-only.png" alt="" />
+                <img class="candle-left" src="/assets/images/left-candle-only.png" alt="" />
+                <img class="flame-right" src="/assets/images/flames-animated.gif" alt="" />
+                <img class="grass-left" src="/assets/images/grass-1.png" alt="" />
+                <img class="grass-right" src="/assets/images/grass-2.png" alt="" />
+
                 <button class="navbar-toggler menu-icon" type="button">
                     <em>MENU</em>
                 </button>
@@ -127,23 +141,22 @@
                 <!-- =============== Article start =========== -->
                 <article>
                     <p id="welcomeMessage">
-                        <span id="greeting"></span> and welcome to Baldur's Guide, the ultimate
-                        destination for mastering Baldur's Gate III. Whether you've already explored
-                        Faerun, or you're just about to embark on your journey, you've come to the
-                        right place.
+                        <span id="greeting"></span> Good morning and welcome to Baldur's Guide, the ultimate destination for mastering Baldur's Gate III. Whether you've already explored Faerun, or you're just about to embark on your journey, you've come to the right place
                     </p>
                     <p>Larian Studios has crafted a masterpiece in the world of role-playing games
                         with Baldur's Gate III. It's not just a game, but an immersive odyssey
                         through the Forgotten Realms, where every choice shapes your destiny. As you
                         delve into your adventure, prepare to be swept away by a world of boundless
                         possibilities.</p>
-                    <img class="article-image" src="./assets/images/article-images/scenery1.jpg" alt="Game Awards 2023" />
+                    <img class="article-image" src="./assets/images/article-images/scenery1.jpg"
+                        alt="Game Awards 2023" />
                     <p>The quality and depth of Baldur's Gate III is unparalleled, a fact recognized
                         by numerous accolades from The 2023 Game Awards and The Golden Joystick
                         Awards to the Webby Awards, the Streamer Awards, and many more. These honors
                         speak volumes about the game's brilliance and the dedication of Larian
                         Studios to delivering an unforgettable experience.</p>
-                    <img class="article-image" src="./assets/images/article-images/awards1.jpg" alt="Game Awards 2023" />
+                    <img class="article-image" src="./assets/images/article-images/awards1.jpg"
+                        alt="Game Awards 2023" />
                     <p>One of the most remarkable aspects of Baldur's Gate III is its dynamic
                         storytelling. Every decision you make, every action you take, shapes the
                         world around you and determines the outcome of your journey. With a
@@ -156,7 +169,8 @@
                         to choose the perfect character build, seeking strategies for challenging
                         encounters, or simply looking for tips to enhance your gameplay experience,
                         the guides and tutorials you'll find in this website are sure to help.</p>
-                    <img class="article-image" src="./assets/images/article-images/gameart1.jpg" alt="Game Awards 2023" />
+                    <img class="article-image" src="./assets/images/article-images/gameart1.jpg"
+                        alt="Game Awards 2023" />
                     <p>So, whether you're a seasoned adventurer or a newcomer to the game, join us
                         on this extraordinary journey. With the tips and tricks you'll find here,
                         you can unlock the secrets of Baldur's Gate and forge your own epic journey.
@@ -176,11 +190,30 @@
             </div>
         </div>
     </main>
-     <!-- ============ Main section End ============ -->
+    <!-- ============ Main section End ============ -->
 
-    #include virtual="./assets/includes/bottomjs.ssi"
+    <!-- ================ Footer Start =================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-space">
+                <ul>
+                    <li><a href="/index.shtml">Home</a></li>
+                    <li><a href="/articles.shtml">Articles</a></li>
+                    <li><a href="/archive.shtml">Archive</a></li>
+                    <li><a href="/about.shtml">About</a></li>
+                    <li><a href="/contact.shtml">Contact</a></li>
+                </ul>
+                <p>Copyright © <span id="currentYear"></span> <a href="https://BaldursGuide.com">BaldursGuide.com</a></p>
+                <img class="footer-grass-left" src="./assets/images/grass-3.png" alt="" />
+                <img class="footer-grass-right" src="./assets/images/grass-4.png" alt="" />
+                <img class="footer-wall" src="./assets/images/footer2.png" alt="" />
+            </div>
+            
+        </div>
+
+    </footer>
     <script src="./assets/js/custom.js"></script>
-   
+
 
 </body>
 

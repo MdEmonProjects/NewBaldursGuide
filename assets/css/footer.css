@@ -1,0 +1,126 @@
+/*** Footer ***/
+
+.footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+.footer-space {
+    max-width: 834px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/bg-footer.png) top center no-repeat;
+    background-size: cover;
+    padding-top: 37px;
+    padding-bottom: 110px;
+    margin-top: 42px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 24px;
+    color: #000000;
+    font-family: "IM Fell Great Primer", serif;
+    line-height: 1.3;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer.container {
+    position: relative;
+}
+
+img.footer-wall {
+    position: absolute;
+    bottom: 0;
+    left: -11px;
+    z-index: 1;
+    width: calc(100% + 23px);
+    z-index: -1;
+    /* max-width: inherit; */
+}
+
+img.footer-grass-left
+
+/* Adjust this for left foliage of Footer */
+    {
+    position: absolute;
+    top: -125px;
+    left: -14px;
+    width: 92px;
+    z-index: 9;
+}
+
+img.footer-grass-right
+
+/* Adjust this for right foliage of Footer */
+    {
+    position: absolute;
+    top: -123px;
+    right: -13px;
+    width: 87px;
+    z-index: 9;
+}
+
+.footer ul {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer li {
+    display: inline-block;
+}
+
+.zindex {
+    position: relative;
+    z-index: 3;
+}
+
+.footer p {
+    display: inline-block;
+    font-family: "Calistoga", serif;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 17px;
+}
+
+
+.footer p a {
+    color: #000000;
+}
+
+.footer p a:hover {
+    color: #fdf1dd;
+}
+
+.footer li:last-child a {
+    border: none;
+}
+
+.footer li a {
+    display: inline-block;
+    color: #000000;
+    font-size: 19px;
+    padding: 0px 5px 0px 3px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Amarante", serif;
+    text-align: center;
+    border-right: 1px solid #000;
+    line-height: 1.05;
+}
+
+.footer ul li a:hover,
+.footer ul li a.active {
+    color: #fdf1dd;
+}

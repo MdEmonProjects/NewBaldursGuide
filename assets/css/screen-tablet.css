@@ -1,4 +1,5 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
     /* Common CSS */
     p {
         font-size: 14px;
@@ -82,6 +83,7 @@
     .main .main-space {
         padding: 0px 50px;
         padding-top: 22px;
+        padding-bottom: 180px;
         margin-top: 0;
     }
 
@@ -89,8 +91,71 @@
         font-size: 20px;
     }
 
+    .main .angle-left {
+        top: 8px;
+        /* Adjust this for top position of left inner window */
+        left: 4px;
+        /* Adjust this for left position of left inner window */
+        width: 180px;
+        /* Adjust this for width of left window */
+    }
+
+    .main .angle-right {
+        top: 8px;
+        right: -6px;
+        width: 180px;
+    }
+
+    .main .candle-left {
+        top: 105px;
+        /* Adjust this for top position of left candle */
+        left: 14px;
+        /* Adjust this for left position of left candle */
+        width: 31px;
+        /* Adjust this for width of left candle */
+    }
+
+    .main .candle-right {
+        top: 105px;
+        /* Adjust this for top position of right candle */
+        right: 14px;
+        /* Adjust this for right position of right candle */
+        width: 31px;
+        /* Adjust this for width of right candle */
+    }
+
+    .main .flame {
+        width: 18px;
+        top: 87px;
+        left: 16px;
+    }
+
+    .main .flame-right {
+        width: 18px;
+        top: 87.5px;
+        right: 12.5px;
+    }
+
+    .main .grass-left {
+        z-index: 3;
+        top: 20px;
+    }
+
+    /* .main .flame {
+        width: 18px;
+        top: 48px;
+        left: 16px;
+    }
+
+    .main .flame-right {
+        width: 18px;
+        top: 48.5px;
+        right: 12.5px;
+    } */
+
     .main .title {
         width: calc(88% - 24px);
+        margin-top: 6px;
     }
 
     .columns:before,
@@ -106,5 +171,36 @@
     article {
         padding: 0px 8px;
     }
-}
 
+    /* ====== Footer start === */
+    .footer {
+        padding-bottom: 80px;
+    }
+    .footer .container {
+        padding-left: 96px;
+        padding-right: 96px;
+    }
+
+    .footer-space {
+        padding-bottom: 68px;
+        margin-top: -6px;
+    }
+    img.footer-grass-left
+
+    /* Adjust this for left foliage of Footer */
+        {
+        top: -37px;
+        left: -14px;
+        width: 52px;
+    }
+
+    img.footer-grass-right
+
+    /* Adjust this for right foliage of Footer */
+        {
+        top: -34px;
+        right: -12px;
+        width: 51px;
+        z-index: 9;
+    }
+}

@@ -11,6 +11,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     margin: 0;
+    position: relative;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
@@ -23,6 +24,10 @@ body {
     padding-left:15px;
     margin-right:auto;
     margin-left:auto
+}
+a, a:hover{
+    text-decoration: none;
+    display: inline-block;
 }
 @media (min-width:576px) {
 

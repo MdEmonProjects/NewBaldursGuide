@@ -5,7 +5,9 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .container, .container-sm {
+
+    .container,
+    .container-sm {
         max-width: 540px;
     }
 
@@ -45,12 +47,14 @@
     }
 
     /* ============= Navigation Area CSS ===================== */
-    nav{
+    nav {
         position: relative;
     }
-    .nav_links.desktop_navigation{
+
+    .nav_links.desktop_navigation {
         display: none;
     }
+
     .topbar {
         min-height: 45px;
     }
@@ -113,14 +117,16 @@
         min-height: 83px;
         /* height: 85px; */
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         display: block;
     }
 
     /*================ Main Content Area CSS =================== */
     .main .main-space {
-        padding: 10px 41px 0;
+        padding: 10px 41px 110px;
         margin-top: -18px;
+        /* overflow-x: hidden; */
     }
 
     .main .title {
@@ -137,9 +143,60 @@
 
     }
 
+    .main .angle-left {
+        position: absolute;
+        top: -15px;
+        left: 5px;
+        width: 97px;
+        z-index: 0;
+    }
+
+    .main .angle-right {
+        top: -15px;
+        right: 0px;
+        width: 97px;
+    }
+
+    .main .grass-left {
+        top: -4px;
+        left: -12px;
+        width: 45px;
+        z-index: 3;
+    }
+
+    .main .grass-right {
+        position: absolute;
+        top: 15px;
+        right: 0px;
+        width: 22px;
+        z-index: 1;
+    }
+
+    .main .flame
+
+    /* Adjust this for left candle light Img */
+        {
+        position: absolute;
+        width: 14px;
+        z-index: 2;
+        top: 23px;
+        left: 11px;
+    }
+
+    .main .flame-right
+
+    /* Adjust this for right candle light Img */
+        {
+        position: absolute;
+        width: 14px;
+        z-index: 2;
+        top: 21.5px;
+        right: 8px;
+    }
+
     .main .al-candel,
-    .main .al-lcandel,
-    .main .al-rcandel {
+    .main .candle-left,
+    .main .candle-right {
         position: absolute;
         width: 26px;
         z-index: 2;
@@ -150,16 +207,16 @@
         right: 12px;
     }
 
-    .main .al-lcandel,
-    .main .al-rcandel {
+    .main .candle-left,
+    .main .candle-right {
         top: 36px;
     }
 
-    .main .al-lcandel {
+    .main .candle-left {
         left: 9px;
     }
 
-    .main .al-rcandel {
+    .main .candle-right {
         right: 9px;
     }
 
@@ -195,17 +252,92 @@
     }
 
     #welcomeMessage {
-        margin-top: 19px;
+        margin-top: 25px;
     }
-    .latest_article_message_section a img{
+
+    .latest_article_message_section a img {
         width: 100%;
     }
 
-  
+
+    /* ========== Footer Start  */
+
+
+    .footer {
+        padding-top: 13px;
+        padding-bottom: 0px;
+        transform: translateY(-100%);
+        overflow-x: hidden;
+    }
+
+    .footer .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer-space {
+        padding-top: 30px;
+        padding-bottom: 46px;
+    }
+
+    /* .footer .zindex {
+        position: absolute;
+        top: 34%;
+        left: 0;
+        width: 100%;
+        transform: translate(0px, -50%);
+    } */
+
+    .footer li a {
+        display: inline-block;
+        color: #000;
+        padding: 0px 5px 0px 0px;
+        font-size: 12px;
+    }
+
+    .footer p
+
+    /* Adjust this for Footer Paragraph text */
+        {
+        font-size: 11px;
+        margin-top: 3px;
+    }
+
+    .footer li a {
+        font-size: 11px;
+    }
+
+    img.footer-wall {
+        left: -4px;
+        width: calc(100% + 9px);
+    }
+
+    img.footer-grass-left
+
+    /* Adjust this for left foliage of Footer */
+        {
+        position: absolute;
+        top: -29px;
+        left: -4px;
+        width: 28px;
+        z-index: 9;
+    }
+
+    img.footer-grass-right
+
+    /* Adjust this for right foliage of Footer */
+        {
+        position: absolute;
+        top: -29px;
+        right: 0px;
+        width: 29px;
+        z-index: 9;
+    }
+
 }
 
 
-@media only screen and (min-width: 540px){
+@media only screen and (min-width: 540px) {
     .latest_article_message_section p {
         width: auto;
         text-align: left;

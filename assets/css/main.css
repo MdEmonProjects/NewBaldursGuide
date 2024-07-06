@@ -12,6 +12,8 @@ main {
     margin-top: 44px;
     background: url(../images/bg-pattern.png) top left repeat;
     background-size: contain;
+
+    padding-bottom: 200px;
 }
 
 .columns{
@@ -71,4 +73,103 @@ main .title h2 {
     text-shadow: 0.2px -0.1px 0px #ffd4bf;
     text-shadow: 1px 1px 1px #ffd4bf;
     text-shadow: 1px 1px 1px rgba(255,212,191,0.7);
+}
+
+/***** Candles and Small element CSS ***/
+.main .angle-right
+{
+    position: absolute;
+    top: -38px;												
+    right: 9px;												
+    width: 264px;											
+    z-index: 0;
+}
+
+.main .angle-left
+{
+	position: absolute;
+	top: -38px;												
+	left: 24px;												
+	width: 264px;									
+	z-index: 0;
+}
+
+.main .candle-right
+{
+    position: absolute;
+    top: 65px;
+    right: 22px;	
+    width: 55px;
+    z-index: 2;
+}
+
+.main .candle-left
+{
+    position: absolute;
+    top: 65px;
+    left: 22px;
+    width: 55px;
+    z-index: 2;
+}
+
+
+
+/*** ART ALIGNMENT ***/
+
+.main .grass-left
+{
+    position: absolute;
+    top: -4px;
+    width: 87px;
+    left: -31px;
+}
+
+.main .grass-right
+{
+    position: absolute;
+    top: 0px;
+    right: -32px;
+    width: 53px;
+    z-index: 1;
+}
+
+.main .flame
+{
+    position: absolute;
+    width: 25px;
+    z-index: 1;
+    top: 45px;
+    left: 28px;
+	animation: flameAnimation 3s infinite;	
+}
+
+.main .flame-right
+{
+    position: absolute;
+    width: 25px;
+    z-index: 1;
+    top: 48.5px;
+    right: 23.5px;
+	animation: flameAnimation 5s infinite;		
+}
+
+@keyframes flameAnimation {
+    0% {
+        transform: scaleX(1) translateX(0);	
+    }
+    25% {
+        transform: scaleX(1) translateX(0);
+    }
+    26% {
+        transform: scaleX(-1) translateX(3px);				
+    }
+    50% {
+        transform: scaleX(-1) translateX(3px);				/* Maintain flipped orientation */
+    }
+    51% {
+        transform: scaleX(1) translateX(0);					/* Return to original orientation */
+    }
+    100% {
+        transform: scaleX(1) translateX(0);					/* Ensure flame stays in original orientation */
+    }
 }
