@@ -10,9 +10,9 @@
                              </ul>
                              <p>Copyright © <span id="currentYear"></span> <a href="https://BaldursGuide.com">BaldursGuide.com</a></p>
                          </div>
-                         <img class="footer-grass-left" src="/assets/img/grass-3.png" alt="" />
-                         <img class="footer-grass-right" src="/assets/img/grass-4.png" alt="" />
-                         <img class="footer-wall" src="/assets/img/footer2.png" alt="" />
+                         <img class="footer-grass-left" src="./assets/img/grass-3.png" alt="" />
+                         <img class="footer-grass-right" src="./assets/img/grass-4.png" alt="" />
+                         <img class="footer-wall" src="./assets/img/footer2.png" alt="" />
                      </div>
 
 	
