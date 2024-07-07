@@ -1,6 +1,6 @@
 @media (min-width:1200px) {
     .image-header:before {
-        bottom: 6px;
+        bottom: 15px;
     }
 
     main .title {

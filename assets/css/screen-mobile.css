@@ -51,6 +51,12 @@
     }
 
     /* ============= Navigation Area CSS ===================== */
+    .navigation-area {
+        min-height: 76px;
+        background-size: auto 100%;
+        margin-top: 0px;
+    }
+
     nav {
         position: relative;
     }
@@ -90,7 +96,7 @@
         font-family: Calistoga, serif;
         min-width: 150px;
         left: 50%;
-        top: 0;
+        top: -11px;
         transform: translate(-50%, -50%);
         z-index: 10;
         position: absolute;
@@ -129,14 +135,14 @@
     /*================ Main Content Area CSS =================== */
     main .main-space {
         padding: 10px 41px 110px;
-        margin-top: -18px;
+        margin-top: -7px;
         /* overflow-x: hidden; */
     }
 
     main .title {
         height: 50px;
         width: calc(80% - 24px);
-        margin-top: -6px;
+        margin-top: -10px;
         text-align: center;
     }
 
@@ -329,23 +335,17 @@
         width: calc(100% + 9px);
     }
 
-    img.footer-grass-left
-
-    /* Adjust this for left foliage of Footer */
-        {
+    img.footer-grass-left {
         position: absolute;
-        top: -29px;
+        top: -60px;
         left: -4px;
         width: 28px;
         z-index: 9;
     }
 
-    img.footer-grass-right
-
-    /* Adjust this for right foliage of Footer */
-        {
+    img.footer-grass-right {
         position: absolute;
-        top: -29px;
+        top: -60px;
         right: 0px;
         width: 29px;
         z-index: 9;
@@ -353,6 +353,27 @@
 
 }
 
+
+@media screen and (max-width: 540px) {
+    .navigation-area {
+        min-height: unset;
+    }
+
+    main .main-space {
+        margin-top: -5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    img.footer-grass-left {
+        top: 0px;
+    }
+
+    img.footer-grass-right {
+        top: 0px;
+    }
+}
 
 @media only screen and (min-width: 540px) {
     .latest-article-message-section p {

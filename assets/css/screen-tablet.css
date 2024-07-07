@@ -9,6 +9,23 @@
         font-size: 30px;
     }
 
+    /* Header CSS */
+    header .nav-item {
+        margin: 0px 5px;
+    }
+
+    header .logo img {
+        margin-left: 60px;
+    }
+
+    /* Nav css Start */
+
+    .navigation-area {
+        min-height: 109px;
+        margin-top: 0px;
+        background-size: auto 100%;
+    }
+
     .nav-links {
         margin-top: -94px;
     }
@@ -59,22 +76,18 @@
         left: -6px;
     }
 
-    /* Header CSS */
-    header .nav-item {
-        margin: 0px 5px;
-    }
 
-    header .logo img {
-        margin-left: 50px;
-    }
 
     /* Main Content Area CSS */
+    main {
+        margin-top: -10px;
+    }
     main .title h2 {
         line-height: 64px;
         padding-top: 3px;
         width: 100%;
         left: 0%;
-        margin-top: -8px;
+        margin-top: 0px;
         font-size: 28px;
         font-weight: 400;
 
@@ -82,7 +95,7 @@
 
     main .main-space {
         padding: 0px 50px;
-        padding-top: 22px;
+        padding-top: 0px;
         padding-bottom: 180px;
         margin-top: 0;
     }
@@ -91,54 +104,50 @@
         font-size: 20px;
     }
 
-    main .angle-left {
-        top: 8px;
-        /* Adjust this for top position of left inner window */
-        left: 4px;
-        /* Adjust this for left position of left inner window */
+
+    main .angle-left, main .angle-right{
+        top: calc(0px - 20px);
         width: 180px;
-        /* Adjust this for width of left window */
+    }
+    main .angle-left {
+        /* top: 8px; */
+        left: 4px;
+        /* width: 180px; */
     }
 
     main .angle-right {
-        top: 8px;
+        /* top: 8px; */
         right: -6px;
-        width: 180px;
+        /* width: 180px; */
     }
 
     main .candle-left {
-        top: 105px;
-        /* Adjust this for top position of left candle */
+        top: 71px;
         left: 14px;
-        /* Adjust this for left position of left candle */
         width: 31px;
-        /* Adjust this for width of left candle */
     }
 
     main .candle-right {
-        top: 105px;
-        /* Adjust this for top position of right candle */
+        top: 71px;
         right: 14px;
-        /* Adjust this for right position of right candle */
         width: 31px;
-        /* Adjust this for width of right candle */
     }
 
     main .flame {
         width: 18px;
-        top: 87px;
+        top: 55px;
         left: 16px;
     }
 
     main .flame-right {
         width: 18px;
-        top: 87.5px;
+        top: 55px;
         right: 12.5px;
     }
 
     main .grass-left {
         z-index: 3;
-        top: 20px;
+        top: 0px;
     }
 
     /* main .flame {
@@ -155,7 +164,7 @@
 
     main .title {
         width: calc(88% - 24px);
-        margin-top: 6px;
+        margin-top: 0px;
     }
 
     .columns:before,
