@@ -1,5 +1,8 @@
 @media (min-width:1200px) {
-    .image-header:before {
+    .container {
+        max-width: 1140px
+    }
+    .awning-image:before {
         bottom: 15px;
     }
 

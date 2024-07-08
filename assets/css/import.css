@@ -6,11 +6,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&display=swap');
 
-@import url("./assets/css/style.css");
-@import url("./assets/css/header.css");
-@import url("./assets/css/nav.css");
-@import url("./assets/css/main.css");
-@import url("./assets/css/article.css");
-@import url("./assets/css/screen-large.css");
-@import url("./assets/css/screen-tablet.css");
-@import url("./assets/css/screen-mobile.css");
+@import url("./general.css");
+@import url("./header.css");
+@import url("./nav.css");
+@import url("./main.css");
+@import url("./article.css");
+@import url("./footer.css");
+
+/* Media Queries (if applicable) */
+@import url("./screen-large.css");
+@import url("./screen-small.css");
+@import url("./screen-tablet.css");
+@import url("./screen-mobile.css");
+

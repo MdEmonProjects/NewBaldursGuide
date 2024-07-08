@@ -38,7 +38,7 @@ nav{
 
 
 
-.image-header:before {
+.awning-image:before {
     content: '';
     position: absolute;
     bottom: 10px;
@@ -53,7 +53,7 @@ nav{
     left: 50%;
     transform: translateX(-50%);
 }
-.image-header:after {
+.awning-image:after {
     content: '';
     background: url(../images/awning-background.png);
     position: absolute;
@@ -65,12 +65,12 @@ nav{
     background-size: contain;
 }
 
-.image-header {
+.awning-image {
     margin-top: -25px;
     position: relative;
 }
 
-.image-header img {
+.awning-image img {
     position: relative;
     margin-top: -19px;
     z-index: 10;
@@ -92,11 +92,11 @@ nav{
     overflow: hidden;
 }
 
-.image-header {
+.awning-image {
     margin-top: -25px;
 }
 
-.image-header img {
+.awning-image img {
     position: relative;
     margin-top: -19px;
     z-index: 10;
@@ -218,6 +218,7 @@ nav{
 }
 
 .nav-links.mobile-navigation ul li a {
+    /* font color and background of the link */
     width: auto;
     height: initial;
     color: #000;

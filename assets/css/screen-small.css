@@ -108,7 +108,7 @@
         width: 45px;
     }
 
-    main .grass-left {
+    main .leaves-left {
         z-index: 3;
     }
     main .flame {
@@ -146,7 +146,7 @@
         padding: 0px 10px;
     }
 
-    .image-header:before {
+    .awning-image:before {
         bottom: 7px;
         width: 95%;
     }
@@ -158,13 +158,13 @@
     .footer-space {
         padding-bottom: 87px;
     }
-    img.footer-grass-left{
+    img.footer-leaves-left{
         top: -75px;
         left: -14px;
         width: 60px;
     }
 
-    img.footer-grass-right{
+    img.footer-leaves-right{
         top: -72px;
         right: -14px;
         width: 60px;

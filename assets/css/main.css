@@ -115,7 +115,7 @@ main .candle-left
 
 /*** ART ALIGNMENT ***/
 
-main .grass-left
+main .leaves-left
 {
     position: absolute;
     top: -4px;
@@ -123,7 +123,7 @@ main .grass-left
     left: -31px;
 }
 
-main .grass-right
+main .leaves-right
 {
     position: absolute;
     top: 0px;

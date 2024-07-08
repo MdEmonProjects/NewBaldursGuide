@@ -1,6 +1,10 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-    /* Common CSS */
+    /*============ Common CSS ==================== */
+    .container {
+        /* =============== content Area ================ */
+        max-width: 720px;
+    }
     p {
         font-size: 14px;
     }
@@ -9,7 +13,7 @@
         font-size: 30px;
     }
 
-    /* Header CSS */
+    /*============== Header CSS ===================== */
     header .nav-item {
         margin: 0px 5px;
     }
@@ -145,7 +149,7 @@
         right: 12.5px;
     }
 
-    main .grass-left {
+    main .leaves-left {
         z-index: 3;
         top: 0px;
     }
@@ -211,13 +215,13 @@
         margin-top: -6px;
     }
 
-    img.footer-grass-left {
+    img.footer-leaves-left {
         top: -37px;
         left: -14px;
         width: 52px;
     }
 
-    img.footer-grass-right
+    img.footer-leaves-right
 
     /* Adjust this for right foliage of Footer */
         {
