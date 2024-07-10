@@ -39,8 +39,8 @@
         text-transform: uppercase;
         padding: 0px 9px;
         width: 77px;
-        height: 53px;
-        padding-top: 24px;
+        height: 49px;
+        padding-top: 22px;
     }
 
     .nav-links ul li:first-child a {
@@ -198,6 +198,13 @@
 
     ul.list li {
         font-size: 20px;
+    }
+
+    .latest-article-message-section a {
+        max-width: 39%;
+    }
+    .latest-article-message-section {
+        column-gap: 46px;
     }
 
     /* ====== Footer start === */

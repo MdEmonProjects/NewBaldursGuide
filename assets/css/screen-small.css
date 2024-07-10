@@ -48,10 +48,10 @@
     } */
     .nav-links ul li a {
         padding: 0px 9px;
-        padding-top: 32px;
+        padding-top: 28px;
         font-size: 15px;
         width: 91px;
-        height: 68px;
+        height: 60px;
     }
     .nav-links ul li:first-child a {
         clip-path: polygon(0% 40%, 100% -24%, 100% 100%, 0% 100%);

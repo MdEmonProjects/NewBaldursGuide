@@ -80,7 +80,7 @@ nav{
 
 .nav-links.desktop-navigation ul li a {
     background: url(../images/bg-btn.png);
-    background-position: top left;
+    background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -109,7 +109,7 @@ nav{
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: -3px;
+    margin-top: 2px;
     padding-left: 6px;
 }
 
@@ -135,9 +135,9 @@ nav{
     font-size: 19px;
     text-transform: uppercase;
     padding: 0px 9px;
-    padding-top: 43px;
+    padding-top: 35px;
     width: 116px;
-    height: 89px;
+    height: 76px;
     text-decoration: none;
     text-align: center;
 }
@@ -189,7 +189,7 @@ nav{
 .nav-links.mobile-navigation {
     background: none;
     position: absolute;
-    top: 52px;
+    top: 43px;
     left: 50%;
     transform: translate(-50%, 50%);
 }

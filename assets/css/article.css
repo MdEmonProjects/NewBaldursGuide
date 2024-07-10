@@ -157,6 +157,7 @@ aside::after {
 .latest-article-message-section {
     display: flex;
     justify-content: space-between;
+    column-gap: 10px;
 
 }
 
