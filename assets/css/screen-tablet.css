@@ -207,6 +207,10 @@
         column-gap: 46px;
     }
 
+    #back-to-top-button {
+        margin-bottom: 10px;
+    }
+
     /* ====== Footer start === */
     footer {
         padding-bottom: 80px;

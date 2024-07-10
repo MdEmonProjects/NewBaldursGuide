@@ -7,6 +7,7 @@ footer {
     bottom: 0;
     transform: translateY(-50%);
     z-index: 9999;
+    pointer-events: none;
 }
 
 .footer-space {
@@ -31,6 +32,7 @@ footer p {
     line-height: 1.3;
     font-weight: 500;
     margin-bottom: 20px;
+    pointer-events: all;
 }
 
 .footer.container {
@@ -76,6 +78,7 @@ footer ul {
     margin: 0;
     list-style: none;
     padding-left: 0px;
+    pointer-events: all;
 }
 
 footer li {

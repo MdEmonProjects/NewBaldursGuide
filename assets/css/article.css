@@ -14,6 +14,7 @@ article p {
 #welcomeMessage {
     margin-top: 35px;
 }
+
 article h2 {
     font-size: 38px;
     color: #000000;
@@ -21,6 +22,7 @@ article h2 {
     margin-top: 46px;
     margin-bottom: 15px;
 }
+
 img.article-image {
     margin-top: 6px;
     margin-right: 0px;
@@ -174,4 +176,69 @@ aside::after {
 .latest-article-message-section a img {
     width: 289px;
     max-width: 100%;
+}
+
+/*** Back to Top button at page bottom ***/
+
+#back-to-top-button {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: lightgray;
+    border: none;
+    border-radius: 50%;
+    font-size: 13px;
+    font-family: "Amarante", serif;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    padding-top: 2px;
+    margin: 35px auto -45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#back-to-top-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.3) 50%, transparent);
+    transform: rotateZ(60deg) translate(0, 5em);
+    animation: magic-shine 4s infinite;
+}
+
+#back-to-top-button:hover {
+    color: white;
+    animation: pop-up 0.2s ease-in-out;
+}
+
+#back-to-top-button:active {
+    animation: pop-up 0.2s ease-in-out;
+}
+
+@keyframes pop-up {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes magic-shine {
+
+    20%,
+    100% {
+        transform: rotateZ(60deg) translate(0, -80px);
+    }
 }

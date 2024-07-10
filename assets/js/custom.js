@@ -38,5 +38,12 @@ var currentYear = new Date().getFullYear();
 // Update the span with id="currentYear" with the current year
 document.getElementById("currentYear").innerHTML = currentYear;
 
+// Smooth button scroll to the top of the page
+var backToTopButton = document.getElementById("back-to-top-button");
+
+backToTopButton.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
 
 
